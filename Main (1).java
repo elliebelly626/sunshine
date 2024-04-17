@@ -3,7 +3,7 @@ class Main{
     System.out.print("glow");
   }
   public static void winter(int temp) {
-    if(temp > -80){
+    if(temp > -80){ // winter stinks
       System.out.print(" )) ");
       temp -= 1;
       winter(temp);
